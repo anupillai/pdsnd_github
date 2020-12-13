@@ -1,5 +1,5 @@
-""" Re-Submitting the Code after Review #1 was completed.
-    Added the addtional function that will ask for input from user for showing 5 lines of raw data and continue to ask untill user says no.
+""" 
+    Added function that will ask for input from user for showing 5 lines of raw data and continue to ask untill user says no.
     Refered Material are: Stack Overflow,https://www.w3schools.com/python/default.asp,https://pandas.pydata.org/docs/user_guide/index.html
 """
 
