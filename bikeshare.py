@@ -136,7 +136,7 @@ def station_stats(df):
     df['combination'] = df['Start Station'] + " AND " + df['End Station']
     print("Most frequent Combination of start station AND end station during trip is: ", df['combination'].mode()[0])
                   
-    print("\n This took %s seconds. " %(time.time() - start_time))
+    print("\n This took %s minutes. " %((time.time() - start_time)/60))
     print('-'*40)
 
 
