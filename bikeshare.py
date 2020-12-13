@@ -1,4 +1,4 @@
-""" 
+""" This bikeshare program reviews the data from 4 US states and provides insight on various Bikeshare usage statistics as per    the requirements of the project.
     Added function that will ask for input from user for showing 5 lines of raw data and continue to ask untill user says no.
     Refered Material are: Stack Overflow,https://www.w3schools.com/python/default.asp,https://pandas.pydata.org/docs/user_guide/index.html
 """
