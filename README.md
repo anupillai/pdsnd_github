@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+13th December,2020
 
-### Project Title
+### Udacity Anu Explore US Bikeshare Data 
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+Using Python to understand U.S. Bikeshare data. Calculate Statistics & build
+an interactive environment where a user chooses the data and filter for a dataset to analyze
 
 ### Files used
-Include the files used
+Bikeshare.py is the main script utilized 
+.csv files from 4 locations are also provided
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits to: https://www.udacity.com/,https://stackoverflow.com/
