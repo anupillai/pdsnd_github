@@ -38,7 +38,7 @@ def get_filters():
     while True:
         month = input("Do you want details of specific month? Type month name, if looking for all months type input as 'all': ")
         month = month.lower()
-        if month in [ 'january', 'february', 'march', 'april', 'may', 'june', 'july','august', 'all' ]:
+        if month in [ 'january', 'february', 'march', 'april', 'may', 'june', 'all' ]:
             break
         else:
             print("Invalid Month. Please enter a valid month between January and June or 'all' option.")
@@ -116,7 +116,7 @@ def time_stats(df):
     df['hour'] = df['Start Time'].dt.hour
     print("Most Common hour of day is ", df['hour'].mode()[0])
                 
-    print("\n Took %s seconds!" % (time.time() - start_time))
+    print("\n Took %s minutes!" % ((time.time() - start_time)/60))
     print('-'*40)
 
 
@@ -153,7 +153,7 @@ def trip_duration_stats(df):
     # TO DO: display mean travel time
     print("Total mean time to travel is", df['Trip Duration'].mean())
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s minutes." % ((time.time() - start_time)/60)
     print('-'*40)
 
 
