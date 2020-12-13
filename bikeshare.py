@@ -38,7 +38,7 @@ def get_filters():
     while True:
         month = input("Do you want details of specific month? Type month name, if looking for all months type input as 'all': ")
         month = month.lower()
-        if month in [ 'january', 'february', 'march', 'april', 'may', 'june', 'all' ]:
+        if month in [ 'january', 'february', 'march', 'april', 'may', 'june', 'july','august', 'all' ]:
             break
         else:
             print("Invalid Month. Please enter a valid month between January and June or 'all' option.")
@@ -136,7 +136,7 @@ def station_stats(df):
     df['combination'] = df['Start Station'] + " AND " + df['End Station']
     print("Most frequent Combination of start station AND end station during trip is: ", df['combination'].mode()[0])
                   
-    print("\n This took %s seconds. " %(time.time() - start_time))
+    print("\n This took %s minutes. " %((time.time() - start_time)/60))
     print('-'*40)
 
 
@@ -231,7 +231,7 @@ def main():
         user_stats(df,city)
         raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to continue? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
