@@ -12,7 +12,8 @@ continue to ask Untill User says no
 
 ### Files used
 Bikeshare.py is the main script utilized 
-.csv files from 4 locations are also provided
+.csv files from chicago, new york city, washington are also provided
 
 ### Credits
-Credits to: https://www.udacity.com/,https://stackoverflow.com/
+Credits to: https://www.udacity.com/,https://stackoverflow.com/,
+www.w3schools.com/python/default.asp,https://pandas.pydata.org/docs/user_guide/index.html
