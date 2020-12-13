@@ -38,7 +38,7 @@ def get_filters():
     while True:
         month = input("Do you want details of specific month? Type month name, if looking for all months type input as 'all': ")
         month = month.lower()
-        if month in [ 'january', 'february', 'march', 'april', 'may', 'june', 'july','august', 'all' ]:
+        if month in [ 'january', 'february', 'march', 'april', 'may', 'june', 'all' ]:
             break
         else:
             print("Invalid Month. Please enter a valid month between January and June or 'all' option.")
