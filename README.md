@@ -7,6 +7,8 @@ Replace the Project Title
 ### Description
 Using Python to understand U.S. Bikeshare data. Calculate Statistics & build
 an interactive environment where a user chooses the data and filter for a dataset to analyze
+Added Additional Function that will adk for Input from user for showing 5 lines of Raw data and
+continue to ask Untill User says no
 
 ### Files used
 Bikeshare.py is the main script utilized 
