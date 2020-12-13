@@ -1,8 +1,8 @@
 ### Date created
 13th December,2020
 
-### Udacity Anu Explore US Bikeshare Data 
-Replace the Project Title
+### Project Details 
+Udacity Anu Explore US Bikeshare Data
 
 ### Description
 Using Python to understand U.S. Bikeshare data. Calculate Statistics & build
